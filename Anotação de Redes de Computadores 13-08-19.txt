@@ -1,0 +1,48 @@
+Anotação de Redes de Computadores 13-08-19
+
+    Início do Capítulo 2 - Configuração de sistemas de redes
+    
+    -2.1 IOS Bootcamp
+        -SO, interface entre usuário e máquina e gerenciamento de dispositivos;
+        -CLI, interface por linha de comando;
+        -IOS, pelo teclado o técnico insere textos e comandos de texto, permite ao técnico executar programas de rede da CLI e exibir a saída em um monitor;
+        -Todos os dispositivos de rede da Cisco vêm comum IOS padrão;
+        -É possível atualizar a versão ou o conjunto de recursos de IOS;
+        -Métodos de Acesso:
+            -Console(obrigatoriamente);
+            -Auxiliar(deixando de existir, poderia fazer por console de forma remota, por um modem, por não usar mais a conexão discada);
+            -Terminal virtual(Telnet ou SSH), os dois são protocolos permitem o acesso remoto, o SSH toda sua comunicação é criptografada. Acesso direto eu e o console usamos a Telnet por não haver necessidade
+             de criptografia;
+        -Programas de emulação de terminal:
+            -PuTTY(fácil, faz telnet, ssh, login remoto, pragmático);
+            -Tera Term(chato e díficil);
+            -SecureCRT;
+        -Modos de Operação do Cisco IOS:
+            -A configuração de inicial deve ser feita com conexão de console;   
+            -A configuração é então feita por meio de vários modos de comandos da CLI;
+        -Modos de Execução:
+            -Modo EXEC do Usuário(acesso básico);
+            -Modo EXEC privilegiado(pode alterar as configurações);
+        -Modos de Comando de Configuração:
+            -O comando Configure Terminal ativa o modo de configuração global;
+            -Os sub-modos de configuração podem ser acessados no modo EXEC privelegiado;
+            -Exemplos: switch(config-line)# e   switch(config-if)#     
+        -Navegar Entre os Modos do IOS:
+            -A navegação entre os modos também é feita por meio de comandos;     
+            -O comando enable ativa o Modo EXEC privelegiado;
+            -O comando exit retorna para o modo de comando primário;
+        -Estrutura Básica dos Comandos do IOS:
+            -A sintaxe geral para um comando é o comando seguido por quaisquer palavras-chave e argumentos adequados;
+        
+        -Crtl + A(edição de linhas);
+        -Comando Ambíguo = comando inicial que se executado, imite um alerta que falta um complemento;
+    
+    -2.2 Configuração básica do dispositivo
+        -Inicialização do dispositivo: Zerar o equipamento observe se o aparelho veio com o nome padrão por exemplo('switch');
+        -Senhas devem possuir pelo menos 8 caracteres, só alfabeto 26 elevado a n, com caracteres especiais 256 elevado a n;
+        -Sempre que nos formos mexer nos equipamentos a senha é Cisco ou Class;
+        -Observações, durante a prova não esqueça a senha de configuração e utilize os comandos de senhas corretamente, durante as atividades de configuração calmamente;
+        -Quando Desligar um switch? nunca, pois as configurações não salvas do switch serão perdidas, a não ser que você as salvou na NVRAM;
+    -2.3 Esquemas de Endereçamento
+        -Socket = IP + mais porta;
+        -IPv6 formado por agrupamentos, quantidade é 2 elevado a 128, 8 agrupamentos, cada agrupamento possui 16 bits, 8x16 = 128bits          

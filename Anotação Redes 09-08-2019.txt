@@ -1,0 +1,37 @@
+Anotação Redes de Computadores 09-08-2019
+
+    -A diferença entre cliente e servidor, o servidor aguardar uma solicitação e o cliente faz a solicitação;
+    -Computadores, Notebooks, Celular e Servidor são dispositivos finais;
+    -Roteador, Switch e Acess Point são Dispositivos intermediários, o celular pode ser um dispositivo intermediário se ele ceder a rede a outro dispositivo;
+    -Exemplo de um componente de meio de rede são os cabos, fibra ótica e sem fio;
+    -Access Point dispositivo que disponibiliza a rede wifi;
+    -Diferença de Desktoop para Laptop e Notebook é que o Laptop e Notebook são considerados dispositivos móveis;
+    -Roteador interliga redes diferentes;
+    -A diferença entre um Telefone e um Telefone IP é que o Telefone IP se liga na rede;
+    -Redes de Áreas Locais(LAN): pequenas áreas geográficas, interconectam os dispositivos finais, administradas por uma única empresa(Provedores), largura de banda de alta velocidade para dispositovos internos;
+    -Redes de área WAN: Interconectam a LAN, administradas por várias prestadores de serviços, oferecem links de velocidade mais lentos entre LANS;
+    -Metropolitana(MAN):parte de um município, ou, municípios;
+    -Redes Pessoais(PAN):Abrangência Local, exemplo: conexão do seu celular com Computador via cabo;
+    -WLAN, W indica Wireless;
+    -Internet: Grupo mundial de redes interconectadas, não pertence a indivíduos ou grupos;
+    -Intranet: Numa empresa/Organização por exemplo os usuarios somente usam a intranet aqueles com vínculo com a empresa, exemplo o sigaa;
+    -Extranet: O IFC com o Netacad, o ifc possui um vínculo com a Cisco(responsável pelo Netacad), e então a Cisco disponibiliza uma rede/sistema para os vinculados da Cisco e ao IFC;
+    -ISP(o provedor de internet);
+    -Cabo de banda larga
+    -DSL(tecnologia utilizada para fornecer acesso a internet);
+    -WANs sem fio, exemplo 4g;
+    -Serviços Móveis, exemplo WIFI;
+    -DLS comercial, mesmo serviço, mas com preço;
+    -Linhas Alugadas, 2MB melhor que 25 MB DSL padrão por que os 2MB não são compartilhados;
+    -Redes Tradicionais Separadas: cada rede com suas próprias regras;
+    -TriplePlay: três serviços na mesma rede;
+    -Rede Convergente: capaz de transmitir dados, voz e vídeo na mesma infraestrutura de rede;
+    -Redes Confiáveis, quatro características básicas da arquitetura de rede: 
+        // Tolerância a falhas, implementar automação, mais de uma rota(redundância), NoBreak(duração curta);
+        // Escalabilidade, tamanho de rede e volume de acesso, não analisar somente a tecnologia;
+        // Qualidade de Serviços(QoS);
+        // Segurança, criptografia;
+    -Rede Powerline: usa a fiação elétrica atual para conectar os dispositivos;
+    -Banda Larga Sem Fio: serviço de banda larga sem fio usando a tecnologia celular;
+    -Arquitetura de Redes da Cisco: sustentam as tecnologias e aplicativos, asseguram a conectividade através de qualquer combinações de rede;
+    -CCNA, o primeiro passo para uma carreira em redes; 
